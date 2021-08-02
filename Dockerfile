@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/Mizuhararobot
-RUN git clone -b shiken https://github.com/Stella-80/xlr8 /root/xlr8
+RUN git clone -b shiken https://github.com/Stella-80/xlr8
 WORKDIR /root/Mizuhararobot
 
 #Copy config file to /root/Mizuhararobot/Mizuhararobot
